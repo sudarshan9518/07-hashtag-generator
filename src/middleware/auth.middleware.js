@@ -29,9 +29,9 @@ async function authMiddleware (req, res, next) {
   }
 
 
-  res.json({
-    message : "successfully post"
-  })
+  // res.json({
+  //   message : "successfully post"
+  // })
 }
 
 
