@@ -2,8 +2,8 @@ const mongoose = require("mongoose")
 
 
 const postSchema = new mongoose.Schema({
-    image : String,
     caption : String,  // only types
+    image : String,
     user : {   // to hold mmultiple  options/properties
         type:mongoose.Schema.Types.ObjectId, 
         ref : "users"
